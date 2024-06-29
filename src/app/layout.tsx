@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <Navbar />
-          <LoginModal/>
+          {/* <LoginModal/> */}
 
           {children}
         </Providers>
